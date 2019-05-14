@@ -33,11 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HearthDb">
-      <HintPath>..\HearthDB\HearthDb\bin\Release\HearthDb.dll</HintPath>
+    <Reference Include="HearthDb, Version=14.0.0.29933, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>HearthDb\HearthDb\bin\Release\HearthDb.dll</HintPath>
     </Reference>
-    <Reference Include="HearthMirror">
-      <HintPath>..\HearthMirror\HearthMirror\bin\x86\Release\HearthMirror.dll</HintPath>
+    <Reference Include="HearthMirror, Version=14.0.0.29933, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>HearthMirror\HearthMirror\bin\Release\HearthMirror.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
