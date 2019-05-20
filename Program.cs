@@ -22,7 +22,7 @@ namespace HearthstoneCollectionExporter
                 //Get collection from Hearthstone
                 var goldenCollection = Reflection.GetCollection().Where(x => x.Premium);
                 var commonCollection = Reflection.GetCollection().Where(x => !x.Premium);
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter("MyCollection.txt"))
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter("..\\data\\MyCollection.txt"))
                 {
                     foreach (var set in StandardSets)
                     {
