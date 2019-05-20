@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{85A9B535-8D71-42C9-8036-F0B19F327CCD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>My_Heartrhstone_Collection</RootNamespace>
-    <AssemblyName>My-Heartrhstone-Collection</AssemblyName>
+    <RootNamespace>My_Hearthstone_Collection</RootNamespace>
+    <AssemblyName>My-Hearthstone-Collection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
